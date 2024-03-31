@@ -37,7 +37,10 @@
             </div>
             <div class = "field-u">
                 <label for="status">Status</label>
-                <input type="text" name="status" value = "{{$student->status}}">
+                <select name="status">
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
             </div>
             <div class = "field-u">
                 <input type="submit" value = "Modify The Record" id = "signup">
